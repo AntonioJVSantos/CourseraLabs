@@ -1,4 +1,4 @@
-import java.net.SocketTimeoutException;
+
 
 public class GenericsApp {
     public static void main(String[] args) throws Exception {
@@ -22,7 +22,7 @@ public class GenericsApp {
         strings.print();
         ints.print();
         System.out.printf("Maximum of %d %d and %d is %d%n",5,4,3,Maximum.maximum(5,4,3));
-        System.out.printf("Maximum of %d %d and %d is %d%n","Pear","Apple","Orange",Maximum.maximum("Pear","Apple","Orange"));
+        // System.out.printf("Maximum of %d %d and %d is %d%n","Pear","Apple","Orange",Maximum.maximum("Pear","Apple","Orange"));
 
     }
 }
